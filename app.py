@@ -9,7 +9,7 @@ from langchain_core.output_parsers import StrOutputParser
 #LangchainSmith Tracking
 os.environ['LANGCHAIN_API_KEY']="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"
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_PROJECT"]=os.getenv("LANGCHAIN_PROJECT")
+os.environ["LANGCHAIN_PROJECT"]="GenAIAppWithOpenAI"
 
 #Prompt Template
 prompt=ChatPromptTemplate.from_messages(
