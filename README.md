@@ -89,4 +89,4 @@ Ollama for providing the powerful models used in this application.
 Streamlit for providing an easy-to-use platform for building interactive web apps
 
 # APP PREVIEW
-Visit this Website to check out my Application: 
+Visit this Website to check out my Application: https://langchaindemowithgemmamodel-454zetfnacjwrcehodsta4.streamlit.app/
