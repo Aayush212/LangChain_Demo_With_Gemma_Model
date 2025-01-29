@@ -7,9 +7,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 #LangchainSmith Tracking
-os.environ['LANGCHAIN_API_KEY']="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"
+os.environ['LANGCHAIN_API_KEY']="your langchain api key"
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_PROJECT"]="GenAIAppWithOpenAI"
+os.environ["LANGCHAIN_PROJECT"]="your langchain project name"
 
 #Prompt Template
 prompt=ChatPromptTemplate.from_messages(
